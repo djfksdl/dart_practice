@@ -6,8 +6,8 @@ void main(){
   print(cals2(5,5,1));
 
   //익명함수: 화살표, 블록바디
-  int func = (int a, int b, int c)=>a+b-m;
-  print(func(3,2,1));
+  // int func = (int a, int b, int c)=>a+b-m;
+  // print(func(3,2,1));
 
 }
 
@@ -27,5 +27,5 @@ void cals3(int a, int b, int m){
   print(a+b-m);
 }
 
-void cals3(int a , int b, int m)=>print()
+// void cals3(int a , int b, int m)=>print()
 
