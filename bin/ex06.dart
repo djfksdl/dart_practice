@@ -3,8 +3,8 @@ void main(){
   /*
   * code = 1 --> R101
   * code = 2 --> R202
-  * code = 2 --> R303
-  * code = 2 --> R404
+  * code = 3 --> R303
+  * code = 4 --> R404
   * 나머지 --> 상담원
   */
 
@@ -27,6 +27,7 @@ void main(){
       break;
   }
 
+  //만약 숫자가 아닌 문자였으면 이렇게 바꾸면 됨
   String code2 = "A";
   switch(code2){
     case "A":
