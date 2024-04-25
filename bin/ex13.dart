@@ -23,8 +23,6 @@ class PersonVo{
   //생성자
   PersonVo(this.personId, this.name, this.hp, this.company);
 
-
-
   //메소드 gs
 
   //메소드 일반
